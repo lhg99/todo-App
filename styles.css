@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button {
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+body {
+	background-color: lightcoral;
+	color: #fff;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+.app {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.app-btn {
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    justify-content: flex-start;
+    border-radius: 5px 5px;
+    height: 60px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+
+.contents:hover {
+    border: 3px solid #fff;
+}
+
+#content-checkbox {
+    margin-left: 20px;
+}
+
+#content-text {
+    border: none;
+    background-color: transparent;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#content-text:focus {
+    outline: none;
+}
+
+#content-text:not(:disabled) {
+    border-bottom: 2px solid #fff;
+}
+
+.materials {
+    border: none;
+    background-color: transparent;
+}
+
+.complete {
+    color: black;
+    background-color: lightgray;
+    text-decoration: line-through;
+}
